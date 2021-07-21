@@ -11,6 +11,7 @@ import (
 	"github.com/willscott/carbs"
 )
 
+// Deprecated: Prefer go-car/v2/blockstore.ReadWrite
 // Carbon is a carbs-index-compatible blockstore supporting appending additional blocks
 type Carbon interface {
 	bs.Blockstore
